@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gstore</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="market_fragment">商城</string>
+    <string name="shopCart_fragment">购物车</string>
+    <string name="mine_fragment">我的</string>
+    <string name="presell_str">预售</string>
+</resources>

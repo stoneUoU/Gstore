@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common_headerv_market"
+    android:layout_width="0dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_height="?android:attr/actionBarSize">
+    <TextView
+        android:id="@+id/headerTv"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:textColor="#696969"
+        android:text="预售清单"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/header_left_IMV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/market_pic_yuansu_left"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/headerTv"
+        android:layout_marginRight="18dp"/>
+
+    <ImageView
+        android:id="@+id/header_right_IMV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/market_pic_yuansu_right"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/headerTv"
+        android:layout_marginLeft="18dp"/>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.Market.GoodDetailActivity">
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn"
+            android:text="测试登录"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:id="@+id/backBtn"
+            android:text="界面返回"
+            android:layout_width="match_parent"
+            android:layout_below="@id/btn"
+            android:layout_height="64dp"
+            android:layout_margin="20dp"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

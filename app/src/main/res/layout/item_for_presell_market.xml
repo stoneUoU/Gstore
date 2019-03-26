@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.View.RoundImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/presellTv"
+        android:layout_width="17dp"
+        android:layout_height="37dp"
+        app:layout_constraintLeft_toLeftOf="@id/imageView"
+        app:layout_constraintTop_toTopOf="@id/imageView"
+        android:ems="1"
+        android:gravity="center"
+        android:textSize="12dp"
+        android:background="@drawable/shape_presell_tv"
+        android:textColor="@color/colorWhite"
+        android:text="@string/presell_str"/>
+    <TextView
+        android:id="@+id/endTimeTv"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        app:layout_constraintLeft_toLeftOf="@id/imageView"
+        app:layout_constraintRight_toRightOf="@id/imageView"
+        app:layout_constraintBottom_toBottomOf="@id/imageView"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:background="@drawable/shape_presell_tv"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@color/colorWhite" />
+    <TextView
+        android:id="@+id/nameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="14dp"
+        android:textColor="@color/black_87"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        android:layout_marginTop="7dp" />
+    <TextView
+        android:id="@+id/priceTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nameTv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="12dp"
+        android:layout_marginTop="4.5dp"
+        android:textColor="@color/appOrange"
+        android:layout_marginBottom="15dp"/>
+</android.support.constraint.ConstraintLayout>
